@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Rabbit",
+    "database": "meeting_db",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "port": 1433,
+    "dialectOptions": {
+      "options": {
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    },
+    "logging": false
+  }
+}
