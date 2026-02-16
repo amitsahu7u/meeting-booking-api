@@ -7,7 +7,7 @@ async function createMeeting(req, res) {
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
-}fdgfdgdfgdfgfdg
+}
 
 async function getMeetings(req, res) {
   const result = await service.getMeetings(req.query);
